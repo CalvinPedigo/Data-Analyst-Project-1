@@ -14,3 +14,9 @@ Time to answer our original question: Is lane splitting safer for motorcycles? W
 ------------------------------------------------------------------------------------------------
 
 Unoriginal Code to be posted here:
+
+  Reference for using the isin andfunction:
+
+  selected_rows = df.loc[df['Name'].isin(names_to_select)]
+  selected_rows = df.loc[~df['Name'].isin(names_to_exclude)]
+
